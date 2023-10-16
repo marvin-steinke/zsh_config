@@ -1,0 +1,5 @@
+sudo dnf install -y zsh fzf fd-find
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/Aloxaf/fzf-tab $HOME/.oh-my-zsh/plugins/fzf-tab
+git clone https://github.com/jeffreytse/zsh-vi-mode $HOME/.oh-my-zsh/plugins/zsh-vi-mode
+cp .zshrc $HOME/.zshrc
