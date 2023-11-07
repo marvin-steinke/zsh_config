@@ -51,7 +51,7 @@ function pdfappend() {
     gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer \
     -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$1 *.pdf
 }
-alias .="clear;ls -AlhX"
+alias .="clear; eza -alh --no-user --group-directories-first"
 function chpwd() { . }
 alias ..="cd .."
 alias usb="cd /run/media/marvin/"
