@@ -28,7 +28,7 @@ zvm_after_init() {
     bindkey ^f fzf-file-widget
     bindkey ^h fzf-history-widget
     bindkey ^j fzf-cd-widget
-    source $ZSH/custom/plugins/fzf-tab/fzf-tab.zsh
+    source $ZSH/plugins/fzf-tab/fzf-tab.zsh
 }
 bindkey ^p up-line-or-search
 bindkey ^n down-line-or-search
